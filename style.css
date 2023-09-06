@@ -1,0 +1,95 @@
+/* XS */
+h1, h2{
+  color: orange;
+}
+.btn-primary {
+  color: #fff;
+  border-color: black;
+  background-color: orange;
+}
+
+/* SM  >= 576px  */
+@media (min-width: 576px) {
+  .small{
+    width: 500px;
+  }
+}
+
+/* LG >= 992px */
+@media (min-width: 992px) {
+  h1, h2{
+    color: purple;
+  }
+  .btn-primary {
+    background-color: purple;
+  }
+  .small{
+    width: 700px;
+    
+  }
+}
+
+/* XL >= 1200px */
+@media (min-width: 1200px) {
+  h1, h2 {
+    color: red;
+  }
+  .btn-primary {
+    background-color: red;
+  }
+  .small{
+    width: 900px!;
+  }
+}
+
+/* MD >= 768px */
+@media (min-width: 768px) {
+  h1, h2 {
+    color: green;
+  }
+  .btn-primary {
+    background-color: green;
+  }
+}
+
+/* XXL >= 1400px */
+@media (min-width: 1400px) {
+  h1, h2 {
+    color: gray;
+  }
+  .btn-primary {
+    background-color: gray;
+  }
+}
+
+.container-fluid {
+  background-color: #888;
+}
+
+.container-sm {
+  margin-bottom: 20px;
+  border: 2px solid blue;
+}
+
+.container-md {
+  margin-bottom: 20px;
+  border: 2px solid crimson;
+}
+
+.container-lg {
+  border: 2px solid chocolate;
+}
+
+.container-xl {
+  border: 2px solid green;
+}
+
+.container-xxl {
+  border: 2px solid yellow;
+}
+
+.g-col-3 {
+  border: 1px solid black;
+}
+
+/* GRID CONTAINER*/
